@@ -1,0 +1,14 @@
+{
+  "services": {
+    "backend": {
+      "source": "./server",
+      "buildCommand": "dotnet build",
+      "startCommand": "dotnet run"
+    },
+    "frontend": {
+      "source": "./client",
+      "buildCommand": "npm install && npm run build",
+      "startCommand": "npm run preview"
+    }
+  }
+}
